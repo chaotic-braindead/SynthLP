@@ -64,7 +64,13 @@ const ContentBlock = ({
                           <Button
                             key={id}
                             color={item.color}
-                            onClick={() => scrollTo("about")}
+                            onClick={() => {
+                              if (item.title === "Learn more") {
+                                window.location.href = "https://web.facebook.com/?_rdc=1&_rdr"
+                              } else {
+                                scrollTo("about")
+                              }
+                            }}
                           >
                             {t(item.title)}
                           </Button>

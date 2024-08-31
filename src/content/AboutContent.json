@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Efficient, fast & responsive",
+  "text": "Designed for immediate use, allowing you to start improving your research process right away. Easy and powerful tool for all",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why use Synth?",
+      "content": "Synth streamlines research by making it easy to collect and organize information from articles. It saves you time and lets you focus on insights rather than the process.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "What does Synth solve?",
+      "content": "It eliminates the hassle of managing large volumes of research data. It simplifies information gathering, ensuring you don’t miss key details.",
       "icon": "notes.svg"
     }
   ]

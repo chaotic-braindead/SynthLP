@@ -75,9 +75,9 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Intramuros, Manila</Para>
+              <Para>1002 Muralla Street</Para>
+              <Para>Philippines</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -99,7 +99,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 </LanguageSwitch>
                 <LanguageSwitch onClick={() => handleChange("es")}>
                   <SvgIcon
-                    src="spain.svg"
+                    src="philippines.png"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
@@ -119,11 +119,11 @@ const Footer = ({ t }: { t: TFunction }) => {
           >
             <NavLink to="/">
               <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
+                <img
+                  src="/logo.png"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  width="45px"
+                  height="45px"
                 />
               </LogoContainer>
             </NavLink>
